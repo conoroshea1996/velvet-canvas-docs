@@ -41,6 +41,7 @@
 	"dependencies": {
 		"@stackblitz/sdk": "^1.11.0",
 		"flexsearch": "^0.7.43",
-		"mdsvex": "^0.12.3"
+		"mdsvex": "^0.12.3",
+		"velvet-canvas": "^0.0.1"
 	}
 }
