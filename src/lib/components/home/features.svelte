@@ -27,7 +27,7 @@
 		{/each}
 	</div>
 
-	<div style="position: relative;">
+	<div style="position: relative;touch-action: none;">
 		<CanvasContext>
 			<Toolbox />
 			<CanvasBoard />
