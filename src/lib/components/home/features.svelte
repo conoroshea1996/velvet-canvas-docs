@@ -31,10 +31,10 @@
 		{/each}
 	</div>
 
-	<div style="position: relative; touch-action: none; **width: 100%;**">
-		<CanvasContext>
-			<Toolbox />
-			<CanvasBoard />
-		</CanvasContext>
-	</div>
+	<CanvasContext>
+		<Toolbox />
+		<CanvasBoard
+			style="position: relative;touch-action: none; border:solid 1px brown; height: 80vh; width: 100%;background-color: white;"
+		/>
+	</CanvasContext>
 </div>
