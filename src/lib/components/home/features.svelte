@@ -31,10 +31,12 @@
 		{/each}
 	</div>
 
-	<CanvasContext>
-		<Toolbox />
-		<CanvasBoard
-			style="position: relative;touch-action: none; border:solid 1px brown; height: 80vh; width: 100%;background-color: white;"
-		/>
-	</CanvasContext>
+	<div class="mt-10">
+		<CanvasContext canvasStyles={{ backgroundColor: "white" }}>
+			<Toolbox />
+			<CanvasBoard
+				style="position: relative;touch-action: none; height: 80vh; width: 100%; border-radius: 12px; box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);"
+			/>
+		</CanvasContext>
+	</div>
 </div>

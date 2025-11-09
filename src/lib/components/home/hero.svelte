@@ -56,7 +56,7 @@
 		<!-- Description -->
 		<div class="mx-auto mt-5 max-w-3xl text-center">
 			<p class="text-lg text-gray-600 dark:text-neutral-400">
-				{siteConfig.description}
+				{@html siteConfig.description}
 			</p>
 		</div>
 

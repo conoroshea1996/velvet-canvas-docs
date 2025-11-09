@@ -10,10 +10,11 @@ import type { Feature, PromoConfig, SiteConfig } from "./types/config.js";
 
 
 export const siteConfig: SiteConfig = {
-    version: '0.0.1',
+    version: '0.6.0',
     title: 'Velvet-Canvas',
     description:
-        'Your silky smooth svelte canvas drawing kit. Unopinated',
+        'The <b> Unopinionated Canvas Kit </b>. Build silky smooth drawing apps, your way.',
+        
     github: 'https://github.com/conoroshea1996/velvet-canvas',
     npm: 'velvet-canvas',
 
