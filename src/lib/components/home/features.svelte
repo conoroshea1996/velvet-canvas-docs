@@ -30,13 +30,21 @@
 			<!-- End Feature Block -->
 		{/each}
 	</div>
+</div>
 
-	<div class="mt-10">
-		<CanvasContext canvasStyles={{ backgroundColor: "white" }}>
-			<Toolbox />
-			<CanvasBoard
-				style="position: relative;touch-action: none; height: 80vh; width: 100%; border-radius: 12px; box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);"
-			/>
-		</CanvasContext>
-	</div>
+<div class="flex justify-center">
+	<CanvasContext canvasStyles={{ backgroundColor: "white" }}>
+		<Toolbox />
+		<CanvasBoard
+			class="max-w-[85rem]"
+			style="position: relative; touch-action: none; 
+                       height: 80vh; 
+                       width: 90vw; 
+                       border-radius: 12px; 
+					   max-width: 85rem;
+					   margin:auto;
+					   padding: 4px;
+                       box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);"
+		/>
+	</CanvasContext>
 </div>
