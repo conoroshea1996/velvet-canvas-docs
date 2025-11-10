@@ -43,7 +43,6 @@
                        border-radius: 12px; 
 					   max-width: 85rem;
 					   margin:auto;
-					   padding: 4px;
                        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);"
 		/>
 	</CanvasContext>
